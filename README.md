@@ -1,10 +1,10 @@
-数据集
+一.数据集
 链接: https://pan.baidu.com/s/1VcednLdgcgMlBwqULB4LnQ?pwd=sfi3 提取码: sfi3
-运行
+二.运行
 1.将提供的数据集放入VOCdevkit/VOC2007中
 2.在train.py中设置对应参数，默认参数已经对应数据集所需要的参数
 3.运行train.py进行训练
-预测
+三.预测
 1.在predict.py里面进行设置可以进行fps测试、整个文件夹的测试和video视频检
 测。
 2.在deeplab.py文件里面，在如下部分修改model_path、num_classes、backbone
