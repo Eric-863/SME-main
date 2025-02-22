@@ -1,13 +1,13 @@
-一.数据集
-链接: https://pan.baidu.com/s/1VcednLdgcgMlBwqULB4LnQ?pwd=sfi3 提取码: sfi3
-二.运行
-1.将提供的数据集放入VOCdevkit/VOC2007中
-2.在train.py中设置对应参数，默认参数已经对应数据集所需要的参数
-3.运行train.py进行训练
-三.预测
-1.在predict.py里面进行设置可以进行fps测试、整个文件夹的测试和video视频检
-测。
-2.在deeplab.py文件里面，在如下部分修改model_path、num_classes、backbone
-使其对应训练好的文件；**model_path对应logs文件夹下面的权值文件，
-num_classes代表要预测的类的数量加1
-3.代码中有注释，如果不理解。可以参考：https://www.bilibili.com/video/BV173411q7xF/?spm_id_from=333.999.0.0&vd_source=a519adae4676331dd322942d3c9039e8
+I. Dataset
+Link: https://pan.baidu.com/s/1VcednLdgcgMlBwqULB4LnQ?pwd=sfi3
+Extraction Code: sfi3
+
+II. Training
+1. Put the provided dataset into VOCdevkit/VOC2007.
+2. Set the corresponding parameters in train.py. The default parameters already match those required by the dataset.
+3. Run train.py to start the training.
+
+III. Prediction
+1. Settings can be made in predict.py for fps testing, testing of an entire folder, and video detection.
+2. In the deeplab.py file, modify model_path, num_classes, and backbone in the following part to match the trained files. **model_path corresponds to the weight file in the logs folder. num_classes represents the number of classes to be predicted plus 1.
+3. There are comments in the code. If you don't understand, you can refer to: https://www.bilibili.com/video/BV173411q7xF/?spm_id_from=333.999.0.0&vd_source=a519adae4676331dd322942d3c9039e8 
